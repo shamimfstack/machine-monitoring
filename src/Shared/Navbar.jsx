@@ -18,22 +18,22 @@ export default function Navbar() {
           </li>
           <li>
             <NavLink
-              to="/"
+              to="/register"
               className={({ isActive, isPending }) =>
                 isPending ? "pending" : isActive ? "active" : ""
               }
             >
-              Home
+              Register
             </NavLink>
           </li>
           <li>
             <NavLink
-              to="/"
+              to="/login"
               className={({ isActive, isPending }) =>
                 isPending ? "pending" : isActive ? "active" : ""
               }
             >
-              Home
+              Login
             </NavLink>
           </li>
         </ul>
